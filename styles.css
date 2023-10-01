@@ -1,0 +1,210 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and set font styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d2aaaa;
+    color: #333;
+}
+
+/* Style the header */
+header {
+    background-size: cover;
+    text-align: center;
+    padding: 20px 0;
+    color: #0c0606;
+}
+header p{
+    font-size: larger;
+}
+header ul{
+    text-decoration: underline;
+    font-size: x-large;
+}
+header img{
+    margin-top: 10px;
+    width: 80%;
+}
+
+/* Navigation menu */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    color: #0b0606;
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #040303;
+    font-weight: bold;
+}
+
+/* CTA button */
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #266e6e;
+    color: #0b0606;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Services section */
+
+.card {
+    top: 5em;
+    height: 500px;
+    width: 290px;
+    margin: 20px;
+    box-shadow: 0 3px 5px #373636;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card {
+    background: rgb(255, 255, 255);
+}
+
+.card .pic img {
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50%;
+    border: 4px solid rgb(59, 56, 56);
+    margin-top: 50px;
+    position: relative;
+}
+
+/* About Us section */
+#about-us {
+    
+    padding: 40px;
+}
+
+#about-us h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+#team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#team img {
+    max-width: 100px;
+    margin: 0 10px;
+    border-radius: 50%;
+}
+
+/* Testimonials section */
+#about-us h2{
+    color: rgb(12, 10, 10);
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+#about-us p {
+    text-align: center;
+    font-size: x-large;
+    color: #000000;
+}
+
+
+/* Contact section */
+#contact {
+    
+    padding: 40px;
+}
+
+#contact form label {
+    font-weight: bold;
+}
+
+#contact form input,
+#contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact form button {
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    background-color: #009688;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#location {
+    margin-top: 20px;
+}
+
+#location iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+}
+
+/* Footer section */
+footer {
+    background-color: #624242;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+}
+
+#social-media {
+    margin-top: 10px;
+}
+
+#social-media a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+/* Responsive design - adjust styles for smaller screens as needed */
+
+@media (max-width: 768px) {
+    header {
+        padding: 80px 0;
+    }
+
+    #team {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #team img {
+        margin: 10px 0;
+    }
+
+    #blog ul li {
+        margin-bottom: 5px;
+    }
+
+    #contact form input,
+    #contact form textarea {
+        margin-bottom: 10px;
+    }
+}
